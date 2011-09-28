@@ -1,5 +1,10 @@
-1317192423
+1317193780
 Application	/Users/tech/rails_projects/sample_app/config/application.rb	  class Application 
 ApplicationController	/Users/tech/rails_projects/sample_app/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/Users/tech/rails_projects/sample_app/app/helpers/application_helper.rb	module ApplicationHelper
+PagesController	/Users/tech/rails_projects/sample_app/app/controllers/pages_controller.rb	class PagesController 
+PagesHelper	/Users/tech/rails_projects/sample_app/app/helpers/pages_helper.rb	module PagesHelper
 SampleApp	/Users/tech/rails_projects/sample_app/config/application.rb	module SampleApp
+about	/Users/tech/rails_projects/sample_app/app/controllers/pages_controller.rb	  def about
+contract	/Users/tech/rails_projects/sample_app/app/controllers/pages_controller.rb	  def contract
+home	/Users/tech/rails_projects/sample_app/app/controllers/pages_controller.rb	  def home
