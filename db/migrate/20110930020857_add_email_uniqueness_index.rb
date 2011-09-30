@@ -3,7 +3,7 @@ class AddEmailUniquenessIndex < ActiveRecord::Migration
     add_index :users, :email, :unique => true
   end
 
-  def down
+  def self.down
     remove_index :users, :email
   end
 end
